@@ -1,4 +1,4 @@
-class HomePage {
+export class HomePage {
 
     getNameBox() {
         return cy.get("form input.form-control[name='name']")
@@ -17,5 +17,3 @@ class HomePage {
     }
 
 }
-
-export default HomePage

@@ -1,6 +1,6 @@
 
 
-class ConfirmPage {
+export class ConfirmPage {
 
     getCountryBox() {
         return cy.get("#country")
@@ -16,5 +16,3 @@ class ConfirmPage {
     }
 
 }
-
-export default ConfirmPage

@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
-import HomePage from '../../support/pageObjects/HomePage'
-import ShopPage from '../../support/pageObjects/shopPage'
-import CheckoutPage from '../../support/pageObjects/CheckoutPage'
-import ConfirmPage from '../../support/pageObjects/ConfirmPage'
+import {HomePage} from '../../support/pageObjects/HomePage'
+import {ShopPage} from '../../support/pageObjects/shopPage'
+import {CheckoutPage} from '../../support/pageObjects/CheckoutPage'
+import {ConfirmPage} from '../../support/pageObjects/ConfirmPage'
 
 describe('My Test Framework Suite', () => {
     before(() => {

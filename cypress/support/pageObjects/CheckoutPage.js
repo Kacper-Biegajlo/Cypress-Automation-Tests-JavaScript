@@ -1,4 +1,4 @@
-class CheckoutPage {
+export class CheckoutPage {
 
     getRemoveButton() {
         return cy.get("button[class='btn btn-danger']")
@@ -15,4 +15,3 @@ class CheckoutPage {
 
 }
 
-export default CheckoutPage

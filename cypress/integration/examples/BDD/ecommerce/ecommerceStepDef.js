@@ -1,8 +1,8 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import HomePage from '../../../../support/pageObjects/HomePage'
-import ShopPage from '../../../../support/pageObjects/shopPage'
-import CheckoutPage from '../../../../support/pageObjects/CheckoutPage'
-import ConfirmPage from '../../../../support/pageObjects/ConfirmPage'
+import {HomePage} from '../../../../support/pageObjects/HomePage'
+import {ShopPage} from '../../../../support/pageObjects/shopPage'
+import {CheckoutPage} from '../../../../support/pageObjects/CheckoutPage'
+import {ConfirmPage} from '../../../../support/pageObjects/ConfirmPage'
 
 const homePage = new HomePage()
 const shopPage = new ShopPage()
