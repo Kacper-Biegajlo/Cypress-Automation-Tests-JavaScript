@@ -10,7 +10,7 @@ describe('My Mock HTTP Request Test Suite', () => {
         req.url="https://rahulshettyacademy.com/Library/GetBook.php?AuthorName=John foe" // 404 error since there is no author like that anymore but works with John foe 200 so security issue Pog
         req.continue((res) => {
 
-            expect(res.statusCode).to.equal(403)
+            expect(res.statusCode).to.equal(200)
             })
         }).as('dummyURL')
         cy.get(".btn.btn-primary").click()
