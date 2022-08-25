@@ -1,6 +1,5 @@
 /// <reference types="Cypress" />
 
-import { And } from "@badeball/cypress-cucumber-preprocessor"
 
 describe('JWT Session', () => {
     it("is logged in through local storage", () => {
